@@ -1,0 +1,17 @@
+{
+  "name": "twitter-github-readme-badge",
+  "version": "1.0.0",
+  "description": "Twitter Github readme Badge ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "image-to-base64": "^2.2.0",
+    "twit": "^2.2.11"
+  }
+}
