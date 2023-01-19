@@ -7,10 +7,10 @@ const { Themes } = require("./types");
 
 const app = express();
 const twiterClient = new twit({
-    consumer_key: "CNpofvLsHMNb9RXCfxcD44sy9",
-    consumer_secret: "db7489uzO4vLOSzQGmkfOtrflaMpj2Ufmcji5LzGBaYpY5w37D",
-    access_token: "1375364568755634178-gO6URpyjXr2NshvX1eR03I2L8YCgCx",
-    access_token_secret: "iJJl8pKqavayAwftV0Cc9jtInEZqtdCmgadwmFBWJ2N3k"
+    consumer_key: process.env.API_KEY,
+    consumer_secret: process.env.API_KEY_SECRET,
+    access_token: process.env.ACCESS_TOKEN,
+    access_token_secret: process.env.ACCESS_TOKEN_SECRET
 });
 
 app.use(express.json());
